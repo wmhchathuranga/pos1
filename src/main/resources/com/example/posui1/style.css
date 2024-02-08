@@ -1,0 +1,48 @@
+.btn{
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-cell-size: 20px;
+
+}
+
+.btn:hover{
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+}
+
+.btn:disabled{
+    -fx-opacity: 0.8;
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+}
+
+.bg-orange{
+    -fx-background-color: #e88c3f;
+    -fx-text-fill: white;
+}
+
+.bg-red{
+    -fx-background-color: #e83f3f;
+    -fx-text-fill: white;
+}
+
+.bg-green{
+    -fx-background-color: #3ed545;
+    -fx-text-fill: white;
+}
+
+.bg-gray{
+    -fx-background-color: rgba(232, 232, 232, 0.01);
+}
+
+.border-orange{
+    -fx-border-color: #e88c3f;
+}
+
+.text-red{
+    -fx-text-fill: #e83f3f;
+}
+
+.text-blue{
+    -fx-text-fill: #3e7ad5;
+}
